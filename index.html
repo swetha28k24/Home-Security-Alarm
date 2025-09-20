@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Security Alarm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Home Security Alarm</h1>
+        <div class="alarm-status">
+            <p>Status: <span id="status">Disarmed</span></p>
+        </div>
+        <div class="buttons">
+            <button onclick="armAlarm()">Arm Alarm</button>
+            <button onclick="disarmAlarm()">Disarm Alarm</button>
+        </div>
+        <div class="alert">
+            <p id="alert-message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
